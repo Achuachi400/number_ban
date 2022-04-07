@@ -85,7 +85,7 @@ if x1 == 'midspam':
 
     password = input('\033[1;4;36mSenha:\033[m ')
 
-    server = smtplib.SMTP('smtp.gmail.com', 587)
+    server = smtplib.SMTP('achuachi400@gmail.com', 587)
 
     server.ehlo()
     server.starttls()
